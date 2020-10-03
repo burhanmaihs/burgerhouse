@@ -1,0 +1,414 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap');
+/* Global CSS Section */
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2{
+    font-family: 'Alfa Slab One', cursive;
+}
+h3,h4,h5,h6{
+    font-family: 'Bebas Neue', cursive;
+}
+p,span,input{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+li{
+    list-style-type: none;
+} 
+a,a:hover{
+    text-decoration: none;
+}
+/* header file css start here */
+.header{
+    width: 100%;
+    background: url(../img/banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120vh;
+}
+.nav-bar{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.phone p{
+	color: #3d2514;
+	font-weight: 700;
+    margin: 7px 10px;
+}
+.menu-item{
+	text-align: right;
+    display: flex;
+    align-items: center ;
+    justify-content: flex-end;
+    margin-top: -20px;
+}
+.menu-item ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.menu-item ul li a{
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #3d2514;
+    font-size: 18px;
+}
+.menu-item ul li a:hover{
+    color: red;
+    transition:  0.5s ease-in-out;
+}
+.banner-text{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+.text h3{
+border: 2px dashed black;
+display: inline-block;
+padding: 5px 10px;
+font-weight: 400px;
+color: #3d2514;
+
+}
+.text h1{
+    font-size: 83px;
+    color: #3d2514;
+    letter-spacing: 4px;
+    text-shadow: 5px 3px white;
+
+}
+.text h2{
+    font-size: 43px;
+    color: #3d2514;
+    letter-spacing: 4px;
+    text-shadow: 3px 2px white;
+
+}
+.circle{
+	height: 150px;
+	width: 150px;
+	border-radius: 100%;
+	background: red;
+	position: absolute;
+    right: 505px;
+    top: 440px;
+    text-align: center;
+}
+.price-box{
+	width: 130px;
+	height: 130px;
+	border-radius: 100%;
+	background: red;
+	margin: 8px;
+	border: 2px dashed white;
+}
+.price{
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.dollar{
+    font-size: 65px;
+    font-family: 'Bebas Neue', cursive;
+}
+.dollar2{
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive;
+}
+.price-box .text{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 6px;
+    margin: -20px 30px;
+}
+/* header file css end here */
+
+/* BLOG GALLERY SECTION START  */
+.blog-gallery{
+    width: 100%;
+}
+.gallery{
+    display: flex;
+}
+.left{
+    position: relative;
+    padding: 15px;
+}
+.left-text h4{
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.left-text h3{
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+.left-text{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: white;
+}
+.right{
+    padding: 15px;
+}
+.top{
+    margin-bottom: 27px;
+}
+.top,.bottom{
+    position: relative;
+}
+.right-text h4{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.right-text h3{
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+.right-text{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color:white;
+}
+.blog-gallery .button{
+    text-align: center;
+    margin: 15px 0px;
+}
+.blog-gallery .button button{
+    padding: 15px 20px;
+    background-color: red;
+    font-size: 15px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    letter-spacing: 2px;
+    border: none;
+}
+/* BLOG GALLERY SECTION END  */
+/* blog item css start here */
+.blog-item{
+    width: 100%;
+}
+.blog-item .title{
+    text-align: center;
+}
+.blog-item .title h1{
+    font-size: 50px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #3d2514;
+}
+.item-gallery{
+    margin: 50px 0px;
+    display: flex;
+}
+.item-gallery .item{
+    padding: 15px;
+    text-align: center;
+}
+.item h3{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.item p{
+margin-bottom: 25px;
+}
+.item button{
+    padding: 15px 25px;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+/* blog item css end here */
+
+/* event section css start here */
+.event{
+	width: 100%;
+	margin-top: 25px;
+    margin-bottom: 30px;
+    
+}
+
+.event-body{
+    width: 90%;
+    padding: 25px;
+    display: flex;
+    box-shadow:2px 2px 10px grey;  
+    
+}
+.event-text{
+    margin-top: 40px;
+    padding-left: 20px;
+    width: 50%;
+    color: #3d2514;
+}
+.event-text h4{
+    font-size: 26px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.event-text h3{
+    font-size: 30px;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.event-text p{
+    padding-right:20px;
+}
+/* .event-img{
+    padding: 5px;
+} */
+.owl-nav{
+	display: none;
+}
+
+.owl-dots{
+	position: absolute;
+    left: 90px;
+    bottom: 30px;
+}
+/* event section css end here */
+
+/* book section css start here */
+.book{
+    width: 100%;
+    background: url(../img/burder-s.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.book-text{
+    text-align: center;
+    padding-top: 10%;
+}
+.book-text h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #3d2514;
+}
+.book-text h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #3d2514;
+}
+
+.book-form{
+    margin: 20px 200px;
+}
+form input{
+    padding: 15px 220px 15px 10px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 20px 15px 0px 0px;
+    border: 1px solid #3d2514;
+    border-radius: 5px;
+}
+form button{
+    background-color: red;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    margin: 20px 15px 0 0;
+    padding: 15px 138px 15px 138px;
+    border: none;
+    border-radius: 5px;
+}
+form button:hover{
+    background-color: rgb(216, 8, 8);
+}
+/* book section css end here */
+/* footer section css start here */
+.footer{
+    width: 100%;
+    background: url(../img/bottom.png);
+    height: 78vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-left{
+    width: 50%;
+    padding-right: 80px;
+}
+.footer-left img{
+    margin: 50px 0px;
+}
+.footer-left p{
+    color: white;
+}
+.footer-right{
+    padding-top: 16%;
+}
+.footer-right i{
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.footer-right span{
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+.social{
+    width: 100%;
+    padding: 150px 7px 10px 47px;
+    display: flex;
+}
+.social .copyright{
+    width: 80%;
+    color: #fff;
+}
+.copyright p{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.social-sec{
+    width: 30%;
+    text-align: right;
+    margin-right: 110px;
+}
+.social-sec ul li{
+    display: inline-block;
+    justify-content: end;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+.social-sec ul li a{
+    color: #000;
+}
+.social-sec ul li a i{
+    padding: 6px 9px;
+}
+
+/* footer section css end here */
